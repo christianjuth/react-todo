@@ -1,0 +1,30 @@
+{
+  "name": "react-todo",
+  "version": "1.0.0",
+  "description": "A Todo App Using React.js",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "./node_modules/webpack/bin/webpack.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Juth <cjuth2@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.6.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianjuth/react-todo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/christianjuth/react-todo/issues"
+  },
+  "homepage": "https://github.com/christianjuth/react-todo#readme"
+}

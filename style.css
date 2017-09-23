@@ -1,0 +1,107 @@
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  min-height: 100%;
+  overflow-x: hidden;
+  
+  font-family: 'Montserrat', sans-serif;
+  
+  background: #000428;
+  background: -webkit-linear-gradient(to right, #000428, #004e92);
+  background: linear-gradient(to right, #000428, #004e92);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+.center-wrap{
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center{
+  position: relative;
+  max-height: 80vh;
+  width: 350px;
+  max-width: 100vw;
+}
+
+.todo{
+  background-color: #fff;
+}
+
+.todo-list{
+  background-color: #fff;
+  padding: 0 0 10px 0;
+}
+
+.todo-list-item-check,
+.todo-list-item-check-all{
+  height: 45px;
+  width: 10%;
+  float: left;
+  padding: 13.5px 10px;
+}
+
+.todo-list-item-check-all{
+  font-size: 23px;
+  line-height: 24px;
+  color: #ddd;
+  transform: scale(1, 0.8);
+  cursor: pointer;
+}
+
+.todo-list-add,
+.todo-list-item-title{
+  height: 45px;
+  width: 90%;
+  float: right;
+}
+
+.clearfix{
+  clear: both;
+}
+
+h1{
+  font-weight: 600;
+  padding: 18px 0 5px 0;
+  margin: 0;
+}
+
+.text-center{
+  display: block;
+  text-align: center;
+}
+
+input[type=text]{
+  height: 45px;
+  font-size: 26px;
+  font-weight: 200;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
